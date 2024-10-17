@@ -3,15 +3,23 @@ footer{
     background: rgb(4,4,4);
     background: linear-gradient(328deg, rgba(4,4,4,1) 0%, rgba(42,42,42,1) 100%);
     color: #dbdbdb;
+    margin-top: 20px;
 
 }
 
-.footer-wrapper{
+.footer-container{
+    
+    height: 250px;
+    padding-top: 20px;
 
+}
+
+.icon-wrapper{
+
+    padding-top: 20px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
 
 }
 
@@ -36,5 +44,21 @@ ul{
 h1{
 
     text-align: center;
+
+}
+
+.footer-icon{
+
+    height: 35px;
+
+}
+
+.contact-wrapper{
+
+    padding-top: 20px; 
+    font-family: Open-sans;
+    display: flex;
+    justify-content: center;
+
 
 }
