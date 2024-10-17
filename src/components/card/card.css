@@ -1,0 +1,24 @@
+.card{
+
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background: rgb(238,11,129);
+    background: radial-gradient(circle, rgba(238,11,129,1) 0%, rgba(102,8,57,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+
+    font-family: Involve-bold;
+    color: #dbdbdb;
+}
+
+.info{
+
+    color: #dbdbdb;
+
+}
