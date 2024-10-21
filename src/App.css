@@ -12,3 +12,13 @@
   font-family: 'Open-sans';
   src: local('Open-sans'), url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf) format('TrueType');
 }
+
+body, html, #root{
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+#root{
+  height: 100%;
+}

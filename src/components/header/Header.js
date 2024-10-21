@@ -1,4 +1,3 @@
-import Image from "../../images/header.jpg";
 import './header.css'
 
 const Header = () => {

@@ -1,14 +1,11 @@
 import Card from "../../components/card/Card";
-import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
-import Navigation from "../../components/navigation/Navigation";
 import './home.css';
 import mallinfophoto from "../../images/mallinfo.jpg";
 
 const Home = () => {
     return ( 
-    <>
-    <Navigation/>
+    <div className="content">
     <Header/>
 
     <div className="main-section">
@@ -47,7 +44,7 @@ const Home = () => {
             <p>Ждем вас в ТРЦ «Garden Mall»!</p>
 
           </div>
-          <div><img src={mallinfophoto} alt='photo' className="mall-info-image"/></div>
+          <div><img src={mallinfophoto} alt='mall hall' className="mall-info-image"/></div>
 
         </div>
 
@@ -55,10 +52,7 @@ const Home = () => {
 
 
     </div>
-
-    <Footer/>
-
-    </> 
+    </div> 
   );
 }
  
