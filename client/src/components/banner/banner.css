@@ -1,0 +1,80 @@
+.banner{
+
+    border: 1px solid rgb(180, 180, 180); 
+    padding: 10px; 
+    text-overflow: ellipsis; 
+    height: 350px;
+    overflow: hidden;
+    background-color: #cfcfcf;
+
+}
+
+.bannertitle{
+
+    text-align: center; 
+    font-size: 25px;
+    font-family: Involve;
+    padding-top: 20px;
+
+}
+
+.banner img{
+
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    
+}
+
+.banner p{
+
+    text-align: center; 
+    text-overflow: ellipsis; 
+    font-family: Involve;
+    font-size: 15px;
+    align-self: center;
+    color: rgb(65, 65, 65);
+}
+
+.banner .boldtext{
+    font-family: Involve-bold;
+    color: rgb(65, 65, 65);
+}
+
+
+.imagebutton {
+    position: relative;
+    display: inline-block; 
+    height: 200px;
+    width: 100%;
+}
+
+.imagebutton img {
+    display: block; 
+    transition: filter 0.3s;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s; 
+    font-size: 20px;
+    font-family: Involve;
+}
+
+.imagebutton a {
+    text-decoration: none; /* Убирает подчеркивание текста */
+}
+
+.imagebutton:hover .imageInsideDiv{
+    filter: brightness(0.5);
+}
+
+.imagebutton:hover .overlay {
+    opacity: 1;
+}

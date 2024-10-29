@@ -1,0 +1,29 @@
+.position-wrapper{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px;
+    
+
+}
+
+.itemPhoto{
+
+    border: 3px double rgb(131, 131, 131);
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.textInPosition{
+
+    font-size: 23px;
+    font-family: Open-sans;
+    align-self: center;
+    color: rgb(48, 48, 48);
+
+}
+
+.positionDescription{
+    font-size: 25px;
+}

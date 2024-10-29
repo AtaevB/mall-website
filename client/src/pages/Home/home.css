@@ -1,0 +1,79 @@
+.main-section{
+
+    margin-top: 50px;
+
+}
+
+.main-text-section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-section{
+
+    width: 1000px; 
+
+}
+
+h1{
+   font-size: 80px;
+   font-family: Involve-bold;
+   color: #7b0040;
+   text-align: center;
+   margin: 0px;
+}
+
+h2{
+   font-size: 40px;
+   font-family: Open-sans;
+   color: rgb(65, 65, 65);
+   text-align: center;
+   margin: 0px;
+}
+
+.small-description{
+    font-family: Open-sans;
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-holder{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mall-info{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0 150px;
+}
+
+.mall-info-wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mall-info-title{
+    font-size: 50px;
+    color: rgb(65, 65, 65);
+}
+
+.mall-info-image{
+    height: 550px;
+    border-radius: 10px;
+}
+
+.mall-info-text{
+    align-self: center;
+    font-family: Open-sans;
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 30px;
+}

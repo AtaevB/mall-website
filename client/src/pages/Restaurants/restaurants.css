@@ -1,0 +1,31 @@
+.restaurantslist{
+
+
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 21%);
+    margin: 50px 0;
+    padding: 0 200px;
+    gap: 50px;
+
+}
+
+.headerimg img{
+
+    width: 100%;
+    height: auto;
+
+}
+
+.h1InRestaurants{
+
+    margin: 50px 0;
+    font-size: 60px;
+
+}
+
+hr{
+
+    width: 90%;
+
+}

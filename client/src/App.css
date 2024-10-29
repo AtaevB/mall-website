@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Involve';
+    src: local('Involve'), url(./fonts/Involve-Medium.ttf) format('TrueType');
+  }
+
+@font-face {
+    font-family: 'Involve-bold';
+    src: local('Involve-bold'), url(./fonts/Involve-Bold.ttf) format('TrueType');
+}
+
+@font-face {
+  font-family: 'Open-sans';
+  src: local('Open-sans'), url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf) format('TrueType');
+}
+
+body, html, #root{
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+#root{
+  height: 100%;
+}
