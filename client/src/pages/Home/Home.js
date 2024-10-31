@@ -1,6 +1,7 @@
 import Card from "../../components/card/Card";
 import Header from "../../components/header/Header";
 import './home.css';
+import './homeAdaptive.css';
 import mallinfophoto from "../../images/mallinfo.jpg";
 
 const Home = () => {
@@ -44,7 +45,7 @@ const Home = () => {
             <p>Ждем вас в ТРЦ «Garden Mall»!</p>
 
           </div>
-          <div><img src={mallinfophoto} alt='mall hall' className="mall-info-image"/></div>
+          <div className="mall-info-image"><img src={mallinfophoto} alt='mall hall' className="mall-info-image"/></div>
 
         </div>
 

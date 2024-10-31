@@ -1,0 +1,18 @@
+select{
+
+    margin: 10px auto;
+    width: 525px;
+    padding: 7px;
+    background-color: #dbdbdb;
+    color: black;
+    font-family: Open-sans;
+
+}
+
+@media (max-width: 769px){
+    
+    select{
+        width: 90%
+    };
+
+}

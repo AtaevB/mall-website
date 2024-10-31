@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import './positioninfo.css';
+import './positioninfoAdaptive.css';
 import {importAll} from '../../scripts/importImages';
 
 const Positioninfo = ({ entityType }) => {
@@ -38,7 +39,7 @@ const Positioninfo = ({ entityType }) => {
     return ( <>
     
     <div className='headerimg'><img src={headerimg} alt='Шапка'/></div>
-    <h1>{itemInfo.shopname || itemInfo.servicename || itemInfo.restaurantname}</h1>
+    <h1 className='titleOfPosition'>{itemInfo.shopname || itemInfo.servicename || itemInfo.restaurantname}</h1>
 
     <hr/>
 

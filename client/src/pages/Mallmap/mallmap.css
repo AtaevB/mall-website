@@ -1,0 +1,69 @@
+.headerimg img{
+
+    width: 100%;
+    height: auto;
+
+}
+
+.map-wrapper{
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+    width: 50%;
+    height: 30%;
+    border: 1px double black;
+}
+
+.map-wrapper img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.map-wrapper svg{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: auto; 
+    
+}
+
+.part{
+
+    opacity: 0;
+
+}
+
+.part:hover{
+
+    transition: opacity 0.5s ease;
+    opacity: 0.5;
+
+}
+
+.floorButtons{
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    
+}
+
+.floorButton{
+    padding: 15px 50px;
+    font-size: 20px;
+    font-family: Involve;
+    background-color: #afafaf;
+    border-radius: 5px;
+}
+
+.floorButton:hover{
+    background-color: #7b0040;
+    color: #dbdbdb;
+    border: 1px solid #afafaf;
+}
+

@@ -56,7 +56,6 @@ h2{
 .mall-info-wrapper{
     margin-top: 30px;
     display: flex;
-    justify-content: space-around;
 }
 
 .mall-info-title{
@@ -67,6 +66,7 @@ h2{
 .mall-info-image{
     height: 550px;
     border-radius: 10px;
+    align-self: center;
 }
 
 .mall-info-text{

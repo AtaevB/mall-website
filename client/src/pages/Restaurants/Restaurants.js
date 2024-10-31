@@ -1,4 +1,5 @@
 import './restaurants.css';
+import './restaurantAdaptive.css';
 import axios from 'axios';
 import Banner from "../../components/banner/Banner";
 import { useEffect, useState } from 'react';

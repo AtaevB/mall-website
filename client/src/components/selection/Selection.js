@@ -1,3 +1,5 @@
+import './selection.css';
+
 const Selection = ({categories, defaultValue, onChange}) => {
     return ( <>
     

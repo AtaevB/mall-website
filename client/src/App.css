@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  background-color: #dbdbdb;
+}
+
 @font-face {
     font-family: 'Involve';
     src: local('Involve'), url(./fonts/Involve-Medium.ttf) format('TrueType');

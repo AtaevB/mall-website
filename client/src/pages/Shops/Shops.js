@@ -2,6 +2,7 @@ import axios from 'axios';
 import Banner from "../../components/banner/Banner";
 import { useEffect, useState } from 'react';
 import './shops.css';
+import './shopAdaptive.css';
 import headerimg from '../../images/mallshops.jpg';
 import {importAll} from '../../scripts/importImages';
 import Selection from '../../components/selection/Selection';

@@ -1,18 +1,10 @@
-body{
-
-    margin: 0;
-    background-color: #dbdbdb;
-
-}
-
 nav{
 
-    margin: 0px;
     font-size: 26px;
     font-family: Involve;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5494572829131652) 25%, rgba(0,0,0,0.6979166666666667) 33%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.896796218487395) 75%);
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 9999;
 
@@ -46,17 +38,126 @@ ul{
     color: #dbdbdb;
     transition: color 0.3s ease;
     padding: 0 30px;
+
 }
 
 
 .navlink:hover{
-
     color: #7b0040;
-
 }
 
 img{
 
     height: 70px;
+
+}
+
+.burger, .smalllogo {
+    display: none; 
+}
+
+
+@media (max-width: 1089px) {
+    ul, .logo {
+        display: none;
+    }
+
+    .smalllogo{
+        display: block;
+        margin: auto 0px;
+    }
+
+    .burger {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        z-index: 50;
+    }
+
+    .burger span{
+        height: 3px;
+        width: 100%;
+        transform: scale(1);
+        background-color: #dbdbdb;
+    }
+
+    .burger::after, .burger::before{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 120%;
+        background-color: #dbdbdb;
+        transition: all 0.3s ease 0s;
+    }
+
+    .burger::before{ top: -3px; }
+    .burger::after{ bottom: -3px; }
+
+    .burger.active span { transform: scale(0); }
+
+    .burger.active::before{
+        top: 50%;
+        transform: rotate(-45deg) translate(0, -25%);
+    }
+
+    .burger.active::after{
+        top: 50%;
+        transform: rotate(45deg) translate(0, -25%);
+    }
+
+    nav{
+
+        display: flex;
+        flex-direction: column;
+        top: 0; bottom: 0; left: 0; right: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        height: 120px;
+        padding: 0;
+
+    }
+
+    nav.open{
+        background: rgb(65,65,65);
+        background: linear-gradient(0deg, rgba(65,65,65,1) 0%, rgba(0,0,0,1) 100%);
+    }
+
+    nav.open ul {
+
+        display: flex;
+        position: absolute;
+        top: 120px;
+        background: rgb(0,0,0);
+        width: 100%;
+        flex-direction: column;
+        row-gap: 10px;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 100%);
+
+    }
+
+    nav.open ul .navlink{
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1256px) {
+    
+    .container{
+
+        padding: 0 50px;
+    
+    }
+
+    .navlink{
+
+        padding: 0 20px;
+    }
 
 }
