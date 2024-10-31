@@ -1,0 +1,63 @@
+@media (max-width: 1680px) {
+    
+    .mall-info{
+        padding: 0 50px;
+    }
+
+}
+
+@media (max-width: 1486px) {
+    
+    .mall-info-image{
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 1356px) {
+    
+    .mall-info-image{
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 1256px) {
+    
+    .mall-info-image{
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 1089px) {
+    
+    .mall-info-wrapper{
+        margin-top: 30px;
+        display: block;
+    }
+
+    .mall-info-image{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .card-holder{
+        flex-direction: column;
+        justify-self: center;
+    }
+
+}
+
+@media (max-width: 769px){
+    .mall-info{
+        padding: 5px;
+    }
+
+    .mall-info-text{
+        text-align: justify;
+        padding: 0;
+    }
+
+}

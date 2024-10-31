@@ -1,0 +1,33 @@
+@media (max-width: 1089px){
+    
+    .map-wrapper{
+        width: 90%;
+        height: 90%;
+    }
+
+}
+
+@media (max-width: 769px){
+    
+    .floorButtons{
+    
+        flex-direction: column;
+        width: 50%;
+        gap: 30px;
+        margin: 20px auto;
+        
+    }    
+
+    .floorButton{
+       justify-self: center;
+    }
+
+}
+
+@media (max-width: 500px){
+    
+    .titleOfMap{
+        font-size: 50px;
+    }
+
+}

@@ -1,0 +1,39 @@
+@media (max-width: 1739px){
+    
+    .servicelist{
+
+        grid-template-columns: repeat(auto-fill, 43%);
+    
+    }
+
+}
+
+@media (max-width: 1089px){
+    
+    .headerimg img{
+
+        width: 100%;
+        height: 35vh;
+    
+    }
+
+    .servicelist{
+
+        grid-template-columns: repeat(auto-fill, 43%);
+        padding: 0 50px;
+        
+    }
+
+}
+
+@media (max-width: 769px){
+    
+    .servicelist{
+
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, 75%);
+        padding: 0 10px;
+        
+    }
+
+}

@@ -1,0 +1,39 @@
+@media (max-width: 1739px){
+    
+    .shoplist{
+
+        grid-template-columns: repeat(auto-fill, 43%);
+    
+    }
+
+}
+
+@media (max-width: 1089px){
+    
+    .headerimg img{
+
+        width: 100%;
+        height: 35vh;
+    
+    }
+
+    .shoplist{
+
+        grid-template-columns: repeat(auto-fill, 43%);
+        padding: 0 50px;
+        
+    }
+
+}
+
+@media (max-width: 769px){
+    
+    .shoplist{
+
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, 75%);
+        padding: 0 10px;
+        
+    }
+
+}
