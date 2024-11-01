@@ -4,7 +4,6 @@
     justify-content: space-around;
     margin: 50px 100px;
     
-
 }
 
 .itemPhoto{
@@ -26,4 +25,8 @@
 
 .positionDescription{
     font-size: 25px;
+}
+
+.smallheader{
+    display: none;
 }

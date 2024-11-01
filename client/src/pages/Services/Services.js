@@ -7,6 +7,7 @@ import headerimg from '../../images/mallshops.jpg';
 import {importAll} from '../../scripts/importImages';
 import Selection from '../../components/selection/Selection';
 import Search from '../../components/search/Search';
+import smallheader from '../../images/smallmall.jpg';
 
 const Services = () => {
 
@@ -44,6 +45,7 @@ const Services = () => {
     return ( <>
 
         <div className='headerimg'><img src={headerimg} alt='Шапка'/></div>
+        <div className='smallheader'><img src={smallheader} alt='Шапка'/></div>
 
         <h1 className='h1InService'>Услуги в нашем торговом центре:</h1>
 

@@ -36,4 +36,18 @@
         
     }
 
+    .headerimg{
+        display: none;
+    }
+
+    .smallheader{
+        display: block;
+        width: 100%;
+    }
+
+    .smallheader img{
+        width: 100%;
+        height: 70vh;
+    }
+
 }

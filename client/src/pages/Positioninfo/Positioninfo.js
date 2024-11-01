@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import './positioninfo.css';
 import './positioninfoAdaptive.css';
 import {importAll} from '../../scripts/importImages';
+import smallheader from '../../images/smallmall.jpg';
 
 const Positioninfo = ({ entityType }) => {
 
@@ -39,6 +40,8 @@ const Positioninfo = ({ entityType }) => {
     return ( <>
     
     <div className='headerimg'><img src={headerimg} alt='Шапка'/></div>
+    <div className='smallheader'><img src={smallheader} alt='Шапка'/></div>
+
     <h1 className='titleOfPosition'>{itemInfo.shopname || itemInfo.servicename || itemInfo.restaurantname}</h1>
 
     <hr/>

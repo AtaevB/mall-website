@@ -6,6 +6,7 @@ import fourth from '../../images/fourth.jpg';
 import './mallmap.css';
 import './mallmapAdaptive.css';
 import { useState } from 'react';
+import smallheader from '../../images/smallmall.jpg';
 
 const Mallmap = () => {
 
@@ -18,7 +19,8 @@ const Mallmap = () => {
     return (<>
 
         <div className='headerimg'><img src={headerimg} alt='Шапка'/></div> 
-
+        <div className='smallheader'><img src={smallheader} alt='Шапка'/></div>
+        
         <h1 className='titleOfMap'>Поэтажный план</h1>
 
         <hr/>

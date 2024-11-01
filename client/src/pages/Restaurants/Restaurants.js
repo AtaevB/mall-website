@@ -7,6 +7,7 @@ import headerimg from '../../images/mallshops.jpg';
 import {importAll} from '../../scripts/importImages';
 import Selection from '../../components/selection/Selection';
 import Search from '../../components/search/Search';
+import smallheader from '../../images/smallmall.jpg';
 
 const Restaurants = () => {
 
@@ -43,8 +44,9 @@ const Restaurants = () => {
     return ( <>
 
         <div className='headerimg'><img src={headerimg} alt='Шапка'/></div>
+        <div className='smallheader'><img src={smallheader} alt='Шапка'/></div>
 
-        <h1 className='h1InRestaurants'>Услуги в нашем торговом центре:</h1>
+        <h1 className='h1InRestaurants'>Рестораны в нашем торговом центре:</h1>
 
         <hr/>
 

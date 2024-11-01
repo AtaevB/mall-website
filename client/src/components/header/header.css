@@ -9,6 +9,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: zoom 15s infinite;
+}
+
+@keyframes zoom {
+    0% {
+        background-size: 120%; /* Начальное увеличение фона */
+    }
+    50% {
+        background-size: 100%; /* Уменьшение до нормального размера */
+    }
+    100% {
+        background-size: 120%; /* Снова увеличение */
+    }
 }
 
 .description{
