@@ -45,6 +45,12 @@
 }
 
 
+@media (max-width: 1320px){
+    .header-part{
+        animation: none;
+    }
+}
+
 @media (max-width: 540px){
     .header-part{
         height: 140vh;
