@@ -1,58 +1,51 @@
-A responsive shopping mall website built with React.
+# Shopping Mall Website
 
+A responsive full-stack web application for a shopping mall, built with React, Node.js, Express, and MySQL.
 
+The website provides information about shops, restaurants, and services and includes an interactive multi-floor mall map.
 
-The project includes information about stores and services, a multi-floor interactive mall map, and a responsive layout for desktop and mobile devices.
+## Features
 
+- Responsive layout for desktop and mobile devices
+- Shop, restaurant, and service listings
+- Interactive multi-floor mall map
+- Clickable map areas linked to individual locations
+- Floor switching using React state
+- REST API for retrieving mall data
+- MySQL database integration
 
-
-\## Features
-
-\- Responsive design
-
-\- Store and service listings
-
-\- JSON-based data storage
-
-\- Interactive multi-floor mall map
-
-\- Clickable map areas linked to store and service pages
-
-\- Floor switching with React state
-
-\- Separate client and server structure
-
-
-
-\## Technologies
-
-\- React
-
-\- JavaScript
-
-\- HTML
-
-\- CSS
-
-\- SVG
-
-\- JSON
-
-\- Node.js
-
-
-
-\## Interactive Mall Map
+## Interactive Mall Map
 
 The mall map is implemented using SVG floor plans.
 
-Each floor contains clickable SVG areas representing shops, restaurants, and services. Users can switch between floors and open the corresponding information page by clicking on a location.
+Each floor contains clickable areas representing individual shops, restaurants, and services. Users can switch between floors and select a location directly on the map to open its information page.
 
+## Architecture
 
+The application consists of a React frontend and a Node.js/Express backend.
 
-\## Project Structure
+The backend connects to a MySQL database and provides API endpoints for retrieving information about shops, restaurants, and services.
 
-\- `client/` – React frontend
+The React frontend consumes this data and displays it throughout the application.
 
-\- `server/` – Node.js server
+## Technologies
 
+### Frontend
+
+- React
+- JavaScript
+- HTML
+- CSS
+- SVG
+
+### Backend
+
+- Node.js
+- Express
+- MySQL
+- CORS
+
+## Project Structure
+
+- `client/` – React frontend
+- `server/` – Express backend and MySQL integration
